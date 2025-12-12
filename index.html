@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws Petshop</title>
+    <link rel="stylesheet" href="/css/style4.css">
+    <link rel="promo" href="/promo.html">
+    <script type="text/JavaScript"src="js/atur1.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">🐾 Happy Paws</div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="/promo.html">Promo</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Selamat Datang di Happy Paws!</h1>
+        <p>Tempat terbaik untuk kebutuhan hewan peliharaan Anda.</p>
+        <a href="#products" class="btn">Lihat Produk</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>
+            Happy Paws Petshop berdiri sejak 2015 dan menyediakan berbagai kebutuhan hewan 
+            peliharaan seperti makanan, aksesoris, serta layanan grooming. 
+            Kami berkomitmen memberikan yang terbaik bagi Anda dan hewan kesayangan Anda.
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Layanan Kami</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="/asset/cat grooming.jpg" alt="Grooming">
+                <h3>Grooming</h3>
+                <p>Layanan perawatan lengkap agar hewan tetap bersih dan sehat.</p>
+            </div>
+            <div class="service">
+                <img src="/asset/konsultasi.jpg" alt="Konsultasi">
+                <h3>Konsultasi Dokter Hewan</h3>
+                <p>Periksa kesehatan hewan peliharaan dengan dokter berpengalaman.</p>
+            </div>
+            <div class="service">
+                <img src="/asset/pet hotel.jpg" alt="Pet Hotel">
+                <h3>Pet Hotel</h3>
+                <p>Titipkan hewan Anda dengan aman saat Anda bepergian.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Produk Unggulan</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="/asset/dog dryfood.jpg" alt="Dog dry Food">
+                <h3>Dog Dry Food</h3>
+                <p>Rp50.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+             <div class="product-card">
+                <img src="/asset/dog wetfood.jpg" alt="Dog wet Food">
+                <h3>Dog Wet Food</h3>
+                <p>Rp15.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="/asset/cat dryfood.jpg" alt="Cat dry Food">
+                <h3>Cat Dry Food</h3>
+                <p>Rp45.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="/asset/cat wetfood.jpg" alt="Cat wet Food">
+                <h3>Cat Wet Food</h3>
+                <p>Rp20.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="/asset/shampo.jpg" alt="shampoo">
+                <h3>dog and cat Shampo</h3>
+                <p>Rp40.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="/asset/pasir.jpg" alt="pasir">
+                <h3>Pasir</h3>
+                <p>Rp70.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="/asset/dog collar.jpg" alt="collar">
+                <h3>dog collar</h3>
+                <p>Rp75.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>📍 Jl. Mawar No. 12, semarang</p>
+        <p>📞 08xx-xxxx-xxxx</p>
+        <p>📧 happypaws@gmail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Happy Paws Petshop | Semua Hak Dilindungi</p>
+    </footer>
+    <p>NAMA: SESILIA FIDELA MANUBELU</p>
+    <P>NIM : A12.2023.07111</P>
+    <!-- Script Menu Responsif -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
